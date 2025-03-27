@@ -38,7 +38,7 @@ jobs:
           pcb_file: output/pcbs/board.kicad_pcb
           gerbers_dir: output/gerbers/board
       - name: Persist output
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: rae-dux-routed-pcbs-and-gerbers
           path: output
